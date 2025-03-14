@@ -95,12 +95,7 @@ img{
 	text-decoration:none;
 	color: #000;
 }
-#menu li.active a:hover{
-	color: #000;
-}
-#menu li:hover{
-	background: #ffdfe0;
-}
+
 #menu li a,
 #menu li.active a{
 	padding: 9px 18px;
@@ -157,16 +152,6 @@ img{
 	text-decoration:none;
 	color:#fff;
 }
-#download:hover{
-	text-shadow: 0 -1px 0 rgba(0,0,0,.25);
-	background-color: #2F96B4;
-	background-position: 0 -15px;
-	-webkit-transition: background-position .1s linear;
-	-moz-transition: background-position .1s linear;
-	-ms-transition: background-position .1s linear;
-	-o-transition: background-position .1s linear;
-	transition: background-position .1s linear;
-}
 #infoMenu{
 	height: 20px;
 	color: #f2f2f2;
@@ -185,9 +170,6 @@ img{
 	display: block;
 	margin: 0 22px 0 0;
 	color: #333;
-}
-#infoMenu li a:hover{
-	text-decoration:underline;
 }
 #infoMenu li{
 	display:inline-block;
@@ -218,9 +200,6 @@ img{
 	color: #BDBDBD;
 	margin:0;
 }
-#examplesList ul li a:hover{
-	color: #f2f2f2;
-}
 #examplesList .column{
 	float: left;
 	margin: 0 20px 0 0;
@@ -247,3 +226,27 @@ img{
 	z-index: 999;
  }
 
+ @media (hover:hover) {
+	#download:hover{
+		text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+		background-color: #2F96B4;
+		background-position: 0 -15px;
+		-webkit-transition: background-position .1s linear;
+		-moz-transition: background-position .1s linear;
+		-ms-transition: background-position .1s linear;
+		-o-transition: background-position .1s linear;
+		transition: background-position .1s linear;
+	}
+	#infoMenu li a:hover{
+		text-decoration:underline;
+	}
+	#examplesList ul li a:hover{
+		color: #f2f2f2;
+	}
+	#menu li.active a:hover{
+		color: #000;
+	}
+	#menu li:hover{
+		background: #ffdfe0;
+	}
+}
