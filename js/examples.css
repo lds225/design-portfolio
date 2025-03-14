@@ -64,6 +64,11 @@ h1{
 p{
 	font-size: 2em;
 }
+img{
+	width: 100%;
+	max-width: 1200px;
+	text-align: center;
+}
 .intro p{
 	width: 50%;
 	margin: 0 auto;
